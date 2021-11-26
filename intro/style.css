@@ -1,0 +1,49 @@
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.item {
+  padding: 10px;
+  background: #3C5B9A;
+  color: #FFF;
+  margin-bottom: 10px;
+}
+.ball {
+  border-radius: 50%;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: #CA5765;
+}
+
+.item:hover .ball {
+  -webkit-transform: translateX(300px);
+      -ms-transform: translateX(300px);
+          transform: translateX(300px);
+}
+ 
+.item-1 .ball {
+  -webkit-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+}
+
+.item-2 .ball {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.item-3 .ball {
+  -webkit-transition: all 0.2s linear;
+          transition: all 0.2s linear;
+}
+
+.item-3:hover .ball {
+  -webkit-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.item-4 .ball {
+  -webkit-transition: all 0.5s cubic-bezier(.785,.135,.15,.86);
+          transition: all 0.5s cubic-bezier(.785,.135,.15,.86);
+}

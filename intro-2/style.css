@@ -1,0 +1,99 @@
+ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .item {
+    padding: 10px;
+    background: #3C5B9A;
+    color: #FFF;
+    margin-bottom: 10px;
+  }
+  .ball {
+    border-radius: 50%;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #CA5765;
+  }
+  
+  .item-1 .ball {
+    -webkit-animation: circle 1s infinite alternate;
+            animation: circle 1s infinite alternate;
+  }
+  
+  @-webkit-keyframes circle {
+    from {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);    
+    }
+    to {
+      -webkit-transform: translateX(300px);
+              transform: translateX(300px);
+    }
+  }
+  
+  @keyframes circle {
+    from {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);    
+    }
+    to {
+      -webkit-transform: translateX(300px);
+              transform: translateX(300px);
+    }
+  }
+  
+  
+  .item-2 .ball {
+    -webkit-animation: circle-two 3s infinite alternate;
+            animation: circle-two 3s infinite alternate;
+  }
+  
+  @-webkit-keyframes circle-two {
+    0% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+    40% {
+      background: blue;
+    }
+    50% {
+      background: green;
+    }
+    70% {
+      background: yellow;
+    }
+    100% {
+      -webkit-transform: translateX(300px);
+              transform: translateX(300px);
+    }
+  }
+  
+  @keyframes circle-two {
+    0% {
+      -webkit-transform: translateX(0px);
+              transform: translateX(0px);
+    }
+    40% {
+      background: blue;
+    }
+    50% {
+      background: green;
+    }
+    70% {
+      background: yellow;
+    }
+    100% {
+      -webkit-transform: translateX(300px);
+              transform: translateX(300px);
+    }
+  }
+  
+  
+  
+  
+  
+  
+  
+  
